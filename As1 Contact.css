@@ -1,0 +1,1592 @@
+#logoDivShow {
+width: 0;
+margin-left:5%;
+}
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.stopfade { 
+   opacity: 0.5;
+}
+#bmw 
+{ 
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    text-shadow: 2px 2px 10px black;
+    background: rgba(0,0,0,0.3);
+    color: white;
+    margin-top: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 2%;
+    height: 450px;
+    font-size: 21px;
+    padding-top: 1px;
+}
+
+#map
+{
+    opacity: 0.7;
+    margin-top: 1.5%;
+    position: absolute;
+    right: 2%;
+    padding: 5px;
+    box-shadow: 5px 5px 5px black;
+    width:50%;
+    height:420px;
+}
+#map:hover
+{
+    opacity: 1;
+}
+#textmap
+{
+    background: rgba(0,0,0,0.3);
+    text-shadow: 5px 5px 5px black;
+   box-shadow: 5px 5px 5px black;
+    color: white;
+    margin-top: 1%;
+    right: 3%;
+    position: absolute;
+}
+#form-div {
+	opacity: 0.8;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width: 500px;
+	left: 2%;
+	position: absolute;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+#form-div:hover
+{
+    opacity: 1;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+	
+.submit:hover {
+	color: #3498db;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+/*video background*/
+
+#videobmw
+{ 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+    opacity: 0.5;
+}
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  
+  #bgvid { display: none; }
+}
+
+#logoDivShow {
+width: 0;
+margin-left:5%;
+}
+
+@media (min-width:1981px)
+{
+ .logoDivMenu  :nth-child(1) { font-size: 45px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+ 
+ #logo 
+{
+    display:show;
+width: 80px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 1.5%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 45px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 5%;
+    padding-left: 0.5%;
+   }
+    
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+
+.mute 
+    {
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 30px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover 
+    { 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+ 
+}
+#homePage 
+    {
+    
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 30px;
+    text-shadow: 1.5px 1.5px black;
+    }
+   
+    #homePage :hover 
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+
+
+}
+
+@media screen and (max-width: 1980px) 
+{
+ .logoDivMenu  :nth-child(1) { font-size: 45px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+.mute 
+    {
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 30px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+
+
+.mute:hover
+    { 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+
+ #logo 
+{
+display:show;
+width: 80px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 1.5%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 45px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 5%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+
+.mute 
+    {
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 30px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover
+    { 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+ 
+}
+#homePage 
+    {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 30px;
+    text-shadow: 1.5px 1.5px black;
+    }
+   
+#homePage :hover 
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+
+
+}
+
+@media screen and (max-width:1243px) 
+{
+ .logoDivMenu  :nth-child(1) { font-size: 40px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 40px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 40px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 40px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 40px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+}
+
+ #logo 
+{
+display:show;
+width: 75px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 2%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 40px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 5%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+.mute 
+    {
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 27px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover 
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+    
+#homePage 
+    {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 25px;
+    text-shadow: 1.5px 1.5px black;
+    }
+   
+#homePage :hover
+    { 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+#bmw 
+{ 
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    text-shadow: 2px 2px 10px black;
+    background: rgba(0,0,0,0.3);
+    color: white;
+    margin-top: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 2%;
+    height: 350px;
+    font-size: 21px;
+    padding-top: 1px;
+}
+
+#map
+{
+    margin-top: 1.5%;
+    position: absolute;
+    right: 2%;
+    padding: 5px;
+    box-shadow: 5px 5px 5px black;
+    width:50%;
+    height:330px;
+}
+#textmap
+{
+    background: rgba(0,0,0,0.3);
+    text-shadow: 5px 5px 5px black;
+   box-shadow: 5px 5px 5px black;
+    color: white;
+    margin-top: 1%;
+    right: 3%;
+    position: absolute;
+    font-size: 15px;
+}
+#form-div {
+	
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width: 300px;
+	left: 2%;
+	position: absolute;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+}
+
+@media screen and  (max-width:1160px)
+{
+ .logoDivMenu  :nth-child(1) { font-size: 35px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 35px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 35px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 35px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 35px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333;
+ }
+    
+ #logo 
+{
+    display:show;
+width: 70px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 2.5%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 35px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 3%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+.mute 
+    {
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 25px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover 
+    { 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+#homePage 
+  {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 20px;
+    text-shadow: 1.5px 1.5px black;
+  }
+   
+    #homePage :hover
+  { 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+
+
+
+}
+
+@media screen and (max-width:1110px)
+{
+ .logoDivMenu  :nth-child(1) { font-size: 30px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 30px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 30px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 30px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 30px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+ #logo 
+{
+    display:show;
+width: 65px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 3%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 30px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 4%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+.mute
+{
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 25px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover 
+{
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+#homePage 
+{
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 18px;
+    text-shadow: 1.5px 1.5px black;
+}
+   
+    #homePage :hover
+ { 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+
+}
+
+@media screen and (max-width:888px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 25px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+  .logoDivMenu {padding-top: 10px;}
+  .logoDivMenu a {font-size: 18px;}
+  
+ #logo 
+{
+    display:show;
+width: 60px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 3%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 25px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 4%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+.mute 
+{
+font:  Helvetica, Arial, Sans-Serif; 
+display:block;
+position:absolute;
+color: whitesmoke;
+margin-top: 0;
+margin-bottom:0;
+font-size: 23px;
+text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover 
+ {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+    
+#homePage 
+    {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 15px;
+    text-shadow: 1.5px 1.5px black;
+}
+   
+ #homePage :hover
+{ 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+
+}
+
+@media screen and (max-width:817px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 25px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+ 
+ #logo 
+{
+    display:show;
+width: 55px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top:3%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 25px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 4%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+.mute 
+{
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 21px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover 
+{ 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+    
+#homePage 
+    {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 13px;
+    text-shadow: 1.5px 1.5px black;
+ }
+   
+#homePage :hover 
+{
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+   display:inline-block;
+}
+
+}
+
+@media screen and (max-width: 800px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 25px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+  
+ #logo 
+{
+    display:show;
+width: 55px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 3%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 25px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 2%;
+    padding-left: 1.9%;
+   }
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+
+.mute 
+{
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 19px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover
+{
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+    
+#homePage {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 11px;
+    text-shadow: 1.5px 1.5px black;
+}
+   
+#homePage :hover
+{
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+
+}
+
+@media screen and (max-width: 657px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 22px; letter-spacing: 0px;}
+.logoDivMenu  :nth-child(2) { font-size: 22px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(3) { font-size: 22px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(4) { font-size: 22px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(n) { font-size: 22px; letter-spacing: 0px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+ 
+ #logo 
+{
+    display:show;
+width: 50px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 3%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 20px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 2%;
+    padding-left: 1%;
+   }
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+.mute
+{
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 17px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover 
+{
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+#homePage {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 10px;
+    text-shadow: 1.5px 1.5px black;
+}
+
+#homePage :hover 
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+    
+#bmw 
+{ 
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    text-shadow: 2px 2px 10px black;
+    background: rgba(0,0,0,0.3);
+    color: white;
+    margin-top: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 2%;
+    height: 800px;
+    font-size: 21px;
+    padding-top: 1px;
+}
+
+#map
+{
+    opacity: 0.7;
+   bottom:-30%;
+    position:absolute;
+    right: 2%;
+    padding: 5px;
+    box-shadow: 5px 5px 5px black;
+    width:55%;
+    height:300px;
+    
+}
+#map:hover
+{
+    opacity: 1;
+}
+#textmap
+{
+    background: rgba(0,0,0,0.3);
+    text-shadow: 5px 5px 5px black;
+   box-shadow: 5px 5px 5px black;
+    color: white;
+    bottom:15%;
+    right: 3%;
+    position: absolute;
+}
+#form-div {
+	opacity: 0.8;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	width: 250px;
+	left: 2%;
+	position: absolute;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+#form-div:hover
+{
+    opacity: 1;
+}
+}
+@media screen and (max-width: 521px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 20px; letter-spacing: 0px;}
+.logoDivMenu  :nth-child(2) { font-size: 20px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(3) { font-size: 20px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(4) { font-size: 20px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(n) { font-size: 20px; letter-spacing: 0px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+ #logo 
+{
+    display:show;
+width: 40px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top:3%;
+}
+
+.logoDivMenu a
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 2%;
+    padding-left: 1%;
+   }
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 10px;
+}       
+.mute 
+{
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 15px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover
+{
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+ 
+}
+#homePage {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 9px;
+    text-shadow: 1.5px 1.5px black;
+}
+   
+#homePage :hover 
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+}
+
+@media screen and  (max-width:500px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 15px; letter-spacing: 0px;}
+.logoDivMenu  :nth-child(2) { font-size: 15px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(3) { font-size: 15px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(4) { font-size: 15px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(n) { font-size: 15px; letter-spacing: 0px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+ #logo 
+{
+display:show;
+width: 35px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 4%;
+}
+
+.logoDivMenu a
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 0%;
+    padding-left: 3%;
+   }
+    
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 10px;
+}
+    
+.mute 
+    {
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 13px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+    
+#homePage {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 8px;
+    text-shadow: 1.5px 1.5px black;
+}
+   
+#homePage :hover 
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+}
+
+@media screen and (max-width:351px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 10px; letter-spacing: 0px;}
+.logoDivMenu  :nth-child(2) { font-size: 10px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(3) { font-size: 10px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(4) { font-size: 10px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(n) { font-size: 10px; letter-spacing: 0px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+ #logo 
+{
+    display:show;
+width: 30px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 5%;
+}
+
+.logoDivMenu a
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 10px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 1%;
+    padding-left: 4%;
+   }
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 10px;
+}
+    
+.mute
+{
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 10px;
+   text-shadow: 1.5px 1.5px black;
+}
+    
+.mute:active{color:#829292;}
+.mute:hover 
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+    
+#homePage {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 7px;
+    text-shadow: 1.5px 1.5px black;
+}
+   
+homePage :hover
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+	<title>BMW Sell</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="As1 Contact.css" media="screen" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+        <div id="logoDivShow" class="logoDivMenu">
+                <a href="javascript:void(0)"  onclick="closeNav()"></a>
+
+                <a href="As1 About Page.html">About</a>
+                <a href="As1 Select.html">Select</a>
+                <a href="As1 Specials.html">Specials</a>
+                <a href="As1 Contact.html">Contact</a>
+        </div>
+    
+       <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img alt="logo" src="images/logo.jpg" id="logo"></span>
+       
+        <h1 class="mute" onclick="document.getElementById('videobmw').muted = !document.getElementById('videobmw').muted">
+                <a style="text-decoration:none;">Mute Video</a>
+        </h1>
+       
+        <video  id="videobmw"  autoplay loop>
+                <source src="Exciting%20times%20ahead.%20BMW%20TV%20Commercial.mp4" type="video/mp4" />
+                <source src="Exciting%20times%20ahead.%20BMW%20TV%20Commercial.mp4" type="video/ogg" />
+                <source src="Exciting%20times%20ahead.%20BMW%20TV%20Commercial.mp4" type="video/webm" />
+       </video>
+       
+       <h1 id="textmap">You can find us on the map...</h1>
+       <div id="bmw">
+          <div id="form-div">
+            <form class="form" id="form1">
+
+              <p class="name">
+                <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+              </p>
+
+              <p class="email">
+                <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+              </p>
+
+              <p class="text">
+                <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+              </p>
+
+
+              <div class="submit">
+                <input type="submit" value="SEND" id="button-blue"/>
+                <div class="ease"></div>
+              </div>
+            </form>
+          </div>
+           
+           <iframe id="map" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJa0ubVnx2nkcRiGkSeL3MxpU&key=AIzaSyAn_Bct_YmNiIY4xxHaWPEpihXeT93ZykI" allowfullscreen></iframe>
+      </div>
+        
+      
+        <h1 id="homePage" > <a style="text-decoration:none;color:whitesmoke" href="index.html">Back to Home Page</a></h1>
+
+        <script type="text/javascript" src="As1 Contact.js"></script>
+        <script type="text/javascript" src="setVideoTime.js"></script>
+</body>
+</html>
+
+

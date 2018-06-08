@@ -1,0 +1,1270 @@
+#logoDivShow {
+width: 0;
+margin-left:5%;
+}
+#iamfan
+    {   
+    bottom: 5%;
+    position:absolute;
+    width:15%;
+    margin-left:1%;
+    }
+    
+#fblogo
+    {
+        bottom:5%;
+        position:absolute;
+        width:2.8%;
+        margin-left:16.5%;
+ border-radius:10px;
+ background-color:#a8e9ff;
+ filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#a8e9ff, endColorstr=#052afc);
+ background-image:-moz-linear-gradient(left top, #a8e9ff 25%, #052afc 50%,#fc0303 75%);
+background-image:linear-gradient(left top, #a8e9ff 25%, #052afc 50%,#fc0303 75%);
+background-image:-webkit-linear-gradient(left top, #a8e9ff 25%, #052afc 50%,#fc0303 75%);
+background-image:-o-linear-gradient(left top, #a8e9ff 25%, #052afc 50%,#fc0303 75%);
+background-image:-ms-linear-gradient(left top, #a8e9ff 25%, #052afc 50%,#fc0303 75%);
+ background-image:-webkit-gradient(linear, left top, right bottom, color-stop(25%,#a8e9ff), color-stop(50%,#052afc),color-stop(75%,#fc0303));
+    }
+
+#tweet
+    {
+        bottom:5%;
+        position:absolute;
+        width:2.8%;
+        margin-left:20%;
+ border-radius:5px;
+ background-color:#a8e9ff;
+ filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#a8e9ff, endColorstr=#052afc);
+ background-image:-moz-linear-gradient(left top, #a8e9ff 25%, #052afc 50%,#fc0303 75%);
+background-image:linear-gradient(left top, #a8e9ff 25%, #052afc 50%,#fc0303 75%);
+background-image:-webkit-linear-gradient(left top, #a8e9ff 25%, #052afc 50%,#fc0303 75%);
+background-image:-o-linear-gradient(left top, #a8e9ff 25%, #052afc 50%,#fc0303 75%);
+background-image:-ms-linear-gradient(left top, #a8e9ff 25%, #052afc 50%,#fc0303 75%);
+ background-image:-webkit-gradient(linear, left top, right bottom, color-stop(25%,#a8e9ff), color-stop(50%,#052afc),color-stop(75%,#fc0303));
+    }
+@media (min-width:1981px)
+{
+ .logoDivMenu  :nth-child(1) { font-size: 45px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+  
+  .container{
+            position:relative;
+            width:100%;
+            height:450px;
+            border-radius:5px;
+            border:1px solid grey;
+            overflow:hidden;
+            opacity:0.1;
+        }
+        
+          .container:hover {
+            opacity: 0.5;
+            -webkit-transition: all 1.5s ease-out;
+   -moz-transition: all 1.5s ease-out;
+   -o-transition: all 1.5s ease-out;
+        }
+        
+ #logo 
+{
+    display:show;
+width: 80px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 1.5%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 45px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 5%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+
+#power {
+    
+    font-family: "Ceviche One" , Arial, sans;
+    text-transform: uppercase; font:  "Cevice One", Arial, Sans-Serif;
+  
+   position:fixed;
+    bottom:0;
+    left:50%;
+ color: whitesmoke;
+    background:none;
+    width:auto;
+    height:auto;
+    text-align: center;
+    font-size: 75px;
+    text-shadow: 1.5px 1.5px black;
+ display:inline-block;
+ 
+   }
+   
+    #power :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+ text-transform: uppercase; font:  "Cevice One", Arial, sans;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+   display:inline-block;
+}
+.background::before {
+content: "";
+position: absolute;
+top: 0; 
+left: 0;
+width: 100%; 
+height: 100%;  
+opacity: 0.8;
+z-index: -1;
+background: url("images/BMW-X5-Horses.jpg");
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+}
+
+@media screen and (max-width: 1980px) 
+{
+ .logoDivMenu  :nth-child(1) { font-size: 45px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+  
+  .container{
+            position:relative;
+            width:100%;
+            height:400px;
+            border-radius:5px;
+            border:1px solid grey;
+            overflow:hidden;
+            opacity:0.1;
+            transition: all 1.5s ease-in-out;
+        }
+          .container:hover {
+            opacity: 0.7;
+         
+        }
+        
+ #logo 
+{
+    display:show;
+width: 80px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 1.5%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 45px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 5%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+
+#power {
+    
+    font-family: "Ceviche One" , Arial, sans;
+    text-transform: uppercase; font:  "Cevice One", Arial, Sans-Serif;
+   position:fixed;
+    bottom:0;
+    left:50%;
+ color: whitesmoke;
+    background:none;
+    width:auto;
+    height:auto;
+    text-align: center;
+    font-size: 65px;
+   text-shadow: 1.5px 1.5px black;
+ display:inline-block;
+ 
+   }
+   
+    #power :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+ text-transform: uppercase; font:  "Cevice One", Arial, sans;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+   display:inline-block;
+    }
+    
+
+
+.background::before {
+content: "";
+position: absolute;
+top: 0; 
+left: 0;
+width: 100%; 
+height: 100%;  
+opacity: 0.8;
+z-index: -1;
+background: url("images/BMW-X5-Horses.jpg");
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+}
+@media screen and (max-width:1243px) 
+{
+
+ .logoDivMenu  :nth-child(1) { font-size: 40px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 40px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 40px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 40px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 40px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+  .container{
+            position:relative;
+            width:100%;
+            height:375px;
+            border-radius:5px;
+            border:1px solid grey;
+            overflow:hidden;
+        }
+ #logo 
+{
+    display:show;
+width: 75px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 2%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 40px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 5%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+#power
+{
+    font-family: "Ceviche One" , Arial, sans;
+   position:fixed;
+    bottom:0;
+    left:50%;
+ color: whitesmoke;
+    background:none;
+    width:auto;
+    height:auto;
+    text-align: center;
+     text-shadow: 1.5px 1.5px black;
+    font-size:60px;
+}
+.background::before {
+content: "";
+position: absolute;
+top: 0; 
+left: 0;
+width: 100%; 
+height: 100%;  
+opacity: 0.8;
+z-index: -1;
+background: url("images/BMW-X5-Horses.jpg");
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+}
+
+@media screen and  (max-width:1160px)
+{
+
+ .logoDivMenu  :nth-child(1) { font-size: 35px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 35px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 35px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 35px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 35px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+ 
+  .container{
+            position:relative;
+            width:100%;
+            height:350px;
+            border-radius:5px;
+            border:1px solid grey;
+            overflow:hidden;
+        }
+ #logo 
+{
+    display:show;
+width: 70px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 2.5%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 35px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 3%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+
+
+
+
+.background::before {
+content: "";
+position: absolute;
+top: 0; 
+left: 0;
+width: 100%; 
+height: 100%;  
+opacity: 0.8;
+z-index: -1;
+background: url("images/BMW-X5-Horses.jpg");
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#power
+{
+    font-family: "Ceviche One" , Arial, sans;
+   position:fixed;
+    bottom:0;
+    left:50%;
+ color: whitesmoke;
+    background:none;
+    width:auto;
+    height:auto;
+    text-align: center;
+     text-shadow: 1.5px 1.5px black;
+    font-size:60px;
+}
+}
+
+
+@media screen and (max-width:1110px)
+{
+ .logoDivMenu  :nth-child(1) { font-size: 30px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 30px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 30px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 30px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 30px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+
+  .container{
+            position:relative;
+            width:100%;
+            height:350px;
+            border-radius:5px;
+            border:1px solid grey;
+            overflow:hidden;
+        }
+ #logo 
+{
+    display:show;
+width: 65px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 3%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 30px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 4%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+#power
+{
+    font-family: "Ceviche One" , Arial, sans;
+   position:fixed;
+    bottom:0;
+    left:50%;
+ color: whitesmoke;
+    background:none;
+    width:auto;
+    height:auto;
+    text-align: center;
+     text-shadow: 1.5px 1.5px black;
+    font-size:45px;
+}
+.background::before {
+content: "";
+position: absolute;
+top: 0; 
+left: 0;
+width: 100%; 
+height: 100%;  
+opacity: 0.8;
+z-index: -1;
+background: url("images/BMW-X5-Horses.jpg");
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+}
+
+@media screen and (max-width:888px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 25px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+  .logoDivMenu {padding-top: 10px;}
+  .logoDivMenu a {font-size: 18px;}
+  .container{
+            position:relative;
+            width:100%;
+            height:325px;
+            border-radius:5px;
+            border:1px solid grey;
+            overflow:hidden;
+        }
+ #logo 
+{
+    display:show;
+width: 60px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 3%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 25px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 4%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+#power
+{
+    font-family: "Ceviche One" , Arial, sans;
+   position:fixed;
+    bottom:0;
+    left:50%;
+ color: whitesmoke;
+    background:none;
+    width:auto;
+    height:auto;
+    text-align: center;
+     text-shadow: 1.5px 1.5px black;
+    font-size:43px;
+}
+.background::before {
+content: "";
+position: absolute;
+top: 0; 
+left: 0;
+width: 100%; 
+height: 100%;  
+opacity: 0.8;
+z-index: -1;
+background: url("images/BMW-X5-Horses.jpg");
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+}
+
+@media screen and (max-width:817px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 25px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+  .container{
+            position:relative;
+            width:100%;
+            height:300px;
+            border-radius:5px;
+            border:1px solid grey;
+            overflow:hidden;
+        }
+ #logo 
+{
+    display:show;
+width: 55px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top:3%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 25px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 4%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+#power
+{
+    font-family: "Ceviche One" , Arial, sans;
+   position:fixed;
+    bottom:0;
+    left:50%;
+ color: whitesmoke;
+    background:none;
+    width:auto;
+    height:auto;
+    text-align: center;
+     text-shadow: 1.5px 1.5px black;
+    font-size:43px;
+}
+.background::before {
+content: "";
+position: absolute;
+top: 0; 
+left: 0;
+width: 100%; 
+height: 100%;  
+opacity: 0.8;
+z-index: -1;
+background: url("images/BMW-X5-Horses.jpg");
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+}
+@media screen and (max-width: 800px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 25px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+  .container{
+            position:relative;
+            width:100%;
+            height:270px;
+            border-radius:5px;
+            border:1px solid grey;
+            overflow:hidden;
+        }
+ #logo 
+{
+    display:show;
+width: 55px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 3%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 25px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 2%;
+    padding-left: 1.9%;
+   }
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+#power
+{
+    font-family: "Ceviche One" , Arial, sans;
+   position:fixed;
+    bottom:0;
+    left:50%;
+ color: whitesmoke;
+    background:none;
+    width:auto;
+    height:auto;
+    text-align: center;
+     text-shadow: 1.5px 1.5px black;
+    font-size:35px;
+}
+.background::before {
+content: "";
+position: absolute;
+top: 0; 
+left: 0;
+width: 100%; 
+height: 100%;  
+opacity: 0.8;
+z-index: -1;
+background: url("images/BMW-X5-Horses.jpg");
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+}
+
+@media screen and (max-width: 657px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 22px; letter-spacing: 0px;}
+.logoDivMenu  :nth-child(2) { font-size: 22px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(3) { font-size: 22px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(4) { font-size: 22px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(n) { font-size: 22px; letter-spacing: 0px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+ 
+
+  .container{
+            position:relative;
+            width:100%;
+            height:250px;
+            border-radius:5px;
+            border:1px solid grey;
+            overflow:hidden;
+        }
+ #logo 
+{
+    display:show;
+width: 50px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 3%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 20px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 2%;
+    padding-left: 1%;
+   }
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+#power
+{
+    font-family: "Ceviche One" , Arial, sans;
+   position:fixed;
+    bottom:0;
+    left:50%;
+ color: whitesmoke;
+    background:none;
+    width:auto;
+    height:auto;
+    text-align: center;
+     text-shadow: 1.5px 1.5px black;
+    font-size:28px;
+}
+.background::before {
+content: "";
+position: absolute;
+top: 0; 
+left: 0;
+width: 100%; 
+height: 100%;  
+opacity: 0.8;
+z-index: -1;
+background: url("images/BMW-X5-Horses.jpg");
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+}
+@media screen and (max-width: 521px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 20px; letter-spacing: 0px;}
+.logoDivMenu  :nth-child(2) { font-size: 20px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(3) { font-size: 20px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(4) { font-size: 20px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(n) { font-size: 20px; letter-spacing: 0px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+ 
+
+  .container{
+            position:relative;
+            width:100%;
+            height:220px;
+            border-radius:5px;
+            border:1px solid grey;
+            overflow:hidden;
+        }
+ #logo 
+{
+    display:show;
+width: 40px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top:3%;
+}
+
+.logoDivMenu a
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 2%;
+    padding-left: 1%;
+   }
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 10px;
+}       
+#power
+{
+    font-family: "Ceviche One" , Arial, sans;
+   position:fixed;
+    bottom:0;
+    left:50%;
+ color: whitesmoke;
+    background:none;
+    width:auto;
+    height:auto;
+    text-align: center;
+     text-shadow: 1.5px 1.5px black;
+    font-size:25px;
+}
+.background::before {
+content: "";
+position: absolute;
+top: 0; 
+left: 0;
+width: 100%; 
+height: 100%;  
+opacity: 0.8;
+z-index: -1;
+background: url("images/BMW-X5-Horses.jpg");
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+}
+@media screen and  (max-width:500px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 15px; letter-spacing: 0px;}
+.logoDivMenu  :nth-child(2) { font-size: 15px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(3) { font-size: 15px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(4) { font-size: 15px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(n) { font-size: 15px; letter-spacing: 0px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+ 
+
+  .container{
+            position:relative;
+            width:100%;
+            height:200px;
+            border-radius:5px;
+            border:1px solid grey;
+            overflow:hidden;
+        }
+ #logo 
+{
+    display:show;
+width: 35px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 4%;
+}
+
+.logoDivMenu a
+{
+    
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 0%;
+    padding-left: 3%;
+   }
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 10px;
+}       
+#power
+{
+    font-family: "Ceviche One" , Arial, sans;
+   position:fixed;
+    bottom:0;
+    left:50%;
+ color: whitesmoke;
+    background:none;
+    width:auto;
+    height:auto;
+    text-align: center;
+     text-shadow: 1.5px 1.5px black;
+    font-size:17px;
+}
+.background::before {
+content: "";
+position: absolute;
+top: 0; 
+left: 0;
+width: 100%; 
+height: 100%;  
+opacity: 0.8;
+z-index: -1;
+background: url("images/BMW-X5-Horses.jpg");
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+}
+
+@media screen and (max-width:351px)
+{
+
+.logoDivMenu  :nth-child(1) { font-size: 10px; letter-spacing: 0px;}
+.logoDivMenu  :nth-child(2) { font-size: 10px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(3) { font-size: 10px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(4) { font-size: 10px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(n) { font-size: 10px; letter-spacing: 0px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+ 
+
+  .container{
+            position:relative;
+            width:100%;
+            height:200px;
+            border-radius:5px;
+            border:1px solid grey;
+            overflow:hidden;
+        }
+ #logo 
+{
+    display:show;
+width: 30px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 5%;
+}
+
+.logoDivMenu a
+{
+    
+    position: relative;
+    text-decoration: none;
+    font-size: 10px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 1%;
+    padding-left: 4%;
+   }
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 10px;
+}       
+#power
+{
+    font-family: "Ceviche One" , Arial, sans;
+   position:fixed;
+    bottom:0;
+    left:50%;
+ color: whitesmoke;
+    background:none;
+    width:auto;
+    height:auto;
+    text-align: center;
+     text-shadow: 1.5px 1.5px black;
+    font-size:13px;
+}
+.background::before {
+content: "";
+position: absolute;
+top: 0; 
+left: 0;
+width: 100%; 
+height: 100%;  
+opacity: 0.8;
+z-index: -1;
+background: url("images/BMW-X5-Horses.jpg");
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+}
+
+/*@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ } */
+/*@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ } */
+/*@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ } */
+/*@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ } */
+/*@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ } */
+/*@media (min-width:1281px) { /* hi-res laptops and desktops */ }  */
+
+
+

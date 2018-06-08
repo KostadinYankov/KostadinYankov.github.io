@@ -1,0 +1,1758 @@
+/*Select page css*/
+
+.stopfade { 
+   opacity: 0.5;
+}
+
+#logoDivShow {
+width: 0;
+margin-left:5%;
+}
+
+@media (min-width:1981px)
+{
+ .logoDivMenu  :nth-child(1) { font-size: 45px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+ 
+ #logo 
+{
+    display:show;
+width: 80px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 1.5%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 45px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 5%;
+    padding-left: 0.5%;
+   }
+    
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+
+.mute 
+    {
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 30px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover 
+    { 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+ 
+}
+#homePage 
+    {
+    
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 30px;
+    text-shadow: 1.5px 1.5px black;
+    }
+   
+    #homePage :hover 
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+
+p 
+    {
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+    color:whitesmoke;
+    font:  Helvetica, Arial, Sans-Serif; 
+    font-size: 25px; 
+    font-weight: bold;
+}
+
+.trapezium  
+    {
+    border-bottom: 50px solid #333;
+    border-left: 1px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 300px;
+    transform: rotate(180deg) scaleX(-1);
+    opacity:0.7;
+    box-shadow: -6px 8px 10px #000;
+}
+
+#line1
+{
+    padding-left:2%;position: absolute;
+    top: 160px;}
+#line1 :hover { opacity:0.9;}
+
+#line2
+ {
+    position: absolute;
+    left: 650px;
+    top: 160px;
+}
+#line2 :hover { opacity:0.9;}
+    
+#videobmw
+{ 
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    
+    background-size: cover; 
+    opacity: 0.5;
+}
+}
+
+@media screen and (max-width: 1980px) 
+{
+ .logoDivMenu  :nth-child(1) { font-size: 45px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 45px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+.mute 
+    {
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 30px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+
+
+.mute:hover
+    { 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+
+ #logo 
+{
+display:show;
+width: 80px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 1.5%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 45px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 5%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+
+.mute 
+    {
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 30px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover
+    { 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+ 
+}
+#homePage 
+    {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 30px;
+    text-shadow: 1.5px 1.5px black;
+    }
+   
+#homePage :hover 
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+    
+p 
+ {
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+    color:whitesmoke;
+    font:  Helvetica, Arial, Sans-Serif; 
+    font-size: 25px; 
+    font-weight: bold;
+}
+
+.trapezium  
+    {
+    border-bottom: 50px solid #333;
+    border-left: 1px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 300px;
+    transform: rotate(180deg) scaleX(-1);
+    opacity:0.7;
+    box-shadow: -6px 8px 10px #000;
+}
+
+#line1
+{padding-left:2%;position: absolute;
+    top: 160px;}
+#line1 :hover { opacity:0.9;}
+
+#line2{position: absolute;
+    left: 650px;
+    top: 160px;}
+#line2 :hover { opacity:0.9;}
+
+#videobmw
+{ 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+    opacity: 0.5;
+}
+}
+
+@media screen and (max-width:1243px) 
+{
+ .logoDivMenu  :nth-child(1) { font-size: 40px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 40px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 40px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 40px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 40px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+}
+
+ #logo 
+{
+display:show;
+width: 75px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 2%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 40px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 5%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+.mute 
+    {
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 27px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover 
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+    
+#homePage 
+    {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 25px;
+    text-shadow: 1.5px 1.5px black;
+    }
+   
+#homePage :hover
+    { 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+
+p 
+{
+-moz-transform: scale(1, -1);
+-webkit-transform: scale(1, -1);
+-o-transform: scale(1, -1);
+-ms-transform: scale(1, -1);
+transform: scale(1, -1);
+color:whitesmoke;
+font:  Helvetica, Arial, Sans-Serif; 
+font-size: 20px; 
+font-weight: bold;
+}
+
+.trapezium  
+    {
+    border-bottom: 45px solid #333;
+    border-left: 1px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 270px;
+    transform: rotate(180deg) scaleX(-1);
+    opacity:0.7;
+    box-shadow: -6px 8px 10px #000;
+}
+
+#line1
+{padding-left:2%;position: absolute;
+   
+    top: 160px;}
+#line1 :hover { opacity:0.9;}
+
+#line2{position: absolute;
+    left: 550px;
+    top: 160px;}
+#line2 :hover { opacity:0.9;}
+    
+#videobmw
+{ 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    
+    background-size: cover; 
+    opacity: 0.5;
+}
+}
+
+@media screen and  (max-width:1160px)
+{
+ .logoDivMenu  :nth-child(1) { font-size: 35px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 35px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 35px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 35px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 35px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333;
+ }
+    
+ #logo 
+{
+    display:show;
+width: 70px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 2.5%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 35px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 3%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+.mute 
+    {
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 25px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover 
+    { 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+#homePage 
+  {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 20px;
+    text-shadow: 1.5px 1.5px black;
+  }
+   
+    #homePage :hover
+  { 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+
+p
+    {
+ -moz-transform: scale(1, -1);
+-webkit-transform: scale(1, -1);
+-o-transform: scale(1, -1);
+-ms-transform: scale(1, -1);
+transform: scale(1, -1);
+color:whitesmoke;
+font:  Helvetica, Arial, Sans-Serif; 
+font-size: 20px; 
+font-weight: bold;
+}
+
+
+.trapezium  {
+    border-bottom: 45px solid #333;
+    border-left: 1px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 270px;
+    transform: rotate(180deg) scaleX(-1);
+    opacity:0.7;
+    box-shadow: -6px 8px 10px #000;
+}
+
+#line1
+{padding-left:2%;position: absolute;
+   
+    top: 160px;}
+#line1 :hover { opacity:0.9;}
+
+#line2{position: absolute;
+    left: 550px;
+    top: 160px;}
+#line2 :hover { opacity:0.9;}
+
+ 
+
+#videobmw
+{ 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+    opacity: 0.5;
+}
+}
+
+@media screen and (max-width:1110px)
+{
+ .logoDivMenu  :nth-child(1) { font-size: 30px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 30px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 30px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 30px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 30px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+ #logo 
+{
+    display:show;
+width: 65px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 3%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 30px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 4%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+.mute
+{
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 25px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover 
+{
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+#homePage 
+{
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 18px;
+    text-shadow: 1.5px 1.5px black;
+}
+   
+    #homePage :hover
+ { 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+p
+ {   
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+    color:whitesmoke;
+    font:  Helvetica, Arial, Sans-Serif; 
+    font-size: 15px; 
+    font-weight: bold;
+}
+
+.trapezium  {
+    border-bottom: 40px solid #333;
+    border-left: 1px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 220px;
+    transform: rotate(180deg) scaleX(-1);
+    opacity:0.7;
+    box-shadow: -6px 8px 10px #000;
+}
+
+#line1
+{padding-left:2%;position: absolute;
+   
+    top: 140px;}
+#line1 :hover { opacity:0.9;}
+
+#line2{position: absolute;
+    left: 400px;
+    top: 140px;}
+#line2 :hover { opacity:0.9;}
+}
+
+@media screen and (max-width:888px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 25px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+  .logoDivMenu {padding-top: 10px;}
+  .logoDivMenu a {font-size: 18px;}
+  
+ #logo 
+{
+    display:show;
+width: 60px;
+border-radius: 500px;
+}
+.trapezium  
+    {
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    border-bottom: 30px solid #333;
+    border-left: 1px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 150px;
+    transform: rotate(180deg) scaleX(-1);
+    opacity:0.7;
+    box-shadow: -6px 8px 10px #000;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 3%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 25px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 4%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+.mute 
+{
+font:  Helvetica, Arial, Sans-Serif; 
+display:block;
+position:absolute;
+color: whitesmoke;
+margin-top: 0;
+margin-bottom:0;
+font-size: 23px;
+text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover 
+ {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+    
+#homePage 
+    {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 15px;
+    text-shadow: 1.5px 1.5px black;
+}
+   
+ #homePage :hover
+{ 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+p {-moz-transform: scale(1, -1);
+-webkit-transform: scale(1, -1);
+-o-transform: scale(1, -1);
+-ms-transform: scale(1, -1);
+transform: scale(1, -1);
+color:whitesmoke;
+font:  Helvetica, Arial, Sans-Serif; 
+font-size: 13px; 
+font-weight: bold;
+}
+
+.trapezium  {
+    border-bottom: 35px solid #333;
+    border-left: 1px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 150px;
+    transform: rotate(180deg) scaleX(-1);
+    opacity:0.7;
+    box-shadow: -6px 8px 10px #000;
+}
+
+#line1
+{padding-left:2%;position: absolute;
+   
+    top: 130px;}
+#line1 :hover { opacity:0.9;}
+
+#line2{position: absolute;
+    left: 350px;
+    top: 130px;}
+#line2 :hover { opacity:0.9;}
+}
+
+@media screen and (max-width:817px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 25px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+ 
+ #logo 
+{
+    display:show;
+width: 55px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top:3%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 25px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 4%;
+    padding-left: 0.5%;
+   }
+.logoDivMenu .closebtn 
+{
+  
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+.mute 
+{
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 21px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover 
+{ 
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+    
+#homePage 
+    {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 13px;
+    text-shadow: 1.5px 1.5px black;
+ }
+   
+#homePage :hover 
+{
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+   display:inline-block;
+}
+    
+p {-moz-transform: scale(1, -1);
+-webkit-transform: scale(1, -1);
+-o-transform: scale(1, -1);
+-ms-transform: scale(1, -1);
+transform: scale(1, -1);
+color:whitesmoke;
+font:  Helvetica, Arial, Sans-Serif; 
+font-size: 13px; 
+font-weight: bold;
+}
+
+.trapezium  {
+    border-bottom: 35px solid #333;
+    border-left: 1px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 150px;
+    transform: rotate(180deg) scaleX(-1);
+    opacity:0.7;
+    box-shadow: -6px 8px 10px #000;
+}
+
+#line1
+{padding-left:2%;position: absolute;
+    top: 130px;}
+#line1 :hover { opacity:0.9;}
+
+#line2{position: absolute;
+    left: 350px;
+    top: 130px;}
+#line2 :hover { opacity:0.9;}
+}
+
+@media screen and (max-width: 800px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 25px; letter-spacing: 1px;}
+.logoDivMenu  :nth-child(2) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(3) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(4) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :nth-child(n) { font-size: 25px; letter-spacing: 1px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+  
+ #logo 
+{
+    display:show;
+width: 55px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 3%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 25px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 2%;
+    padding-left: 1.9%;
+   }
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+
+.mute 
+{
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 19px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover
+{
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+    
+#homePage {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 11px;
+    text-shadow: 1.5px 1.5px black;
+}
+   
+#homePage :hover
+{
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+    
+p {-moz-transform: scale(1, -1);
+-webkit-transform: scale(1, -1);
+-o-transform: scale(1, -1);
+-ms-transform: scale(1, -1);
+transform: scale(1, -1);
+color:whitesmoke;
+font:  Helvetica, Arial, Sans-Serif; 
+font-size: 13px; 
+font-weight: bold;
+}
+
+.trapezium  {
+    border-bottom: 35px solid #333;
+    border-left: 1px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 150px;
+    transform: rotate(180deg) scaleX(-1);
+    opacity:0.7;
+    box-shadow: -6px 8px 10px #000;
+}
+
+#line1
+{padding-left:2%;position: absolute;
+    top: 110px;}
+#line1 :hover { opacity:0.9;}
+
+#line2{position: absolute;
+    left: 350px;
+    top: 110px;}
+#line2 :hover { opacity:0.9;}
+}
+
+@media screen and (max-width: 657px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 22px; letter-spacing: 0px;}
+.logoDivMenu  :nth-child(2) { font-size: 22px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(3) { font-size: 22px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(4) { font-size: 22px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(n) { font-size: 22px; letter-spacing: 0px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+ 
+ #logo 
+{
+    display:show;
+width: 50px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 3%;
+}
+
+.logoDivMenu a
+{
+    position: static;
+    text-decoration: none;
+    font-size: 20px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 2%;
+    padding-left: 1%;
+   }
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 50px;
+}       
+.mute
+{
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 17px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover 
+{
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+#homePage {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 10px;
+    text-shadow: 1.5px 1.5px black;
+}
+
+#homePage :hover 
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+    
+p {-moz-transform: scale(1, -1);
+-webkit-transform: scale(1, -1);
+-o-transform: scale(1, -1);
+-ms-transform: scale(1, -1);
+transform: scale(1, -1);
+color:whitesmoke;
+font:  Helvetica, Arial, Sans-Serif; 
+font-size: 10px; 
+font-weight: bold;
+}
+
+.trapezium  {
+    border-bottom: 30px solid #333;
+    border-left: 1px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 100px;
+    transform: rotate(180deg) scaleX(-1);
+    opacity:0.7;
+    box-shadow: -6px 8px 10px #000;
+}
+
+#line1
+{padding-left:2%;position: absolute;
+   
+    top: 100px;}
+#line1 :hover { opacity:0.9;}
+
+#line2{position: absolute;
+    left: 300px;
+    top: 100px;}
+#line2 :hover { opacity:0.9;}
+
+}
+@media screen and (max-width: 521px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 20px; letter-spacing: 0px;}
+.logoDivMenu  :nth-child(2) { font-size: 20px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(3) { font-size: 20px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(4) { font-size: 20px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(n) { font-size: 20px; letter-spacing: 0px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+ #logo 
+{
+    display:show;
+width: 40px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top:3%;
+}
+
+.logoDivMenu a
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 2%;
+    padding-left: 1%;
+   }
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 10px;
+}       
+.mute 
+{
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 15px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover
+{
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+ 
+}
+#homePage {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 9px;
+    text-shadow: 1.5px 1.5px black;
+}
+   
+#homePage :hover 
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+    
+p {-moz-transform: scale(1, -1);
+-webkit-transform: scale(1, -1);
+-o-transform: scale(1, -1);
+-ms-transform: scale(1, -1);
+transform: scale(1, -1);
+color:whitesmoke;
+font:  Helvetica, Arial, Sans-Serif; 
+font-size: 8px; 
+font-weight: bold;
+}
+
+.trapezium  {
+    border-bottom: 20px solid #333;
+    border-left: 1px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 70px;
+    transform: rotate(180deg) scaleX(-1);
+    opacity:0.7;
+    box-shadow: -6px 8px 10px #000;
+}
+
+#line1
+{
+    padding-left:2%;position: absolute;
+    top: 90px;
+}
+#line1 :hover { opacity:0.9;}
+#line2{position: absolute;
+    left: 200px;
+    top: 90px;}
+#line2 :hover { opacity:0.9;}
+}
+
+@media screen and  (max-width:500px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 15px; letter-spacing: 0px;}
+.logoDivMenu  :nth-child(2) { font-size: 15px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(3) { font-size: 15px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(4) { font-size: 15px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(n) { font-size: 15px; letter-spacing: 0px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+ #logo 
+{
+display:show;
+width: 35px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 4%;
+}
+
+.logoDivMenu a
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 0%;
+    padding-left: 3%;
+   }
+    
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 10px;
+}
+    
+.mute 
+    {
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 13px;
+    text-shadow: 1.5px 1.5px black;
+}
+.mute:active{color:#829292;}
+.mute:hover
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+    
+#homePage {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 8px;
+    text-shadow: 1.5px 1.5px black;
+}
+   
+#homePage :hover 
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+    
+p {-moz-transform: scale(1, -1);
+-webkit-transform: scale(1, -1);
+-o-transform: scale(1, -1);
+-ms-transform: scale(1, -1);
+transform: scale(1, -1);
+color:whitesmoke;
+font:  Helvetica, Arial, Sans-Serif; 
+font-size: 7px; 
+font-weight: bold;
+}
+
+.trapezium  {
+    border-bottom: 15px solid #333;
+    border-left: 1px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 70px;
+    transform: rotate(180deg) scaleX(-1);
+    opacity:0.7;
+    box-shadow: -6px 8px 10px #000;
+}
+
+#line1
+{padding-left:2%;position: absolute;
+    top: 70px;}
+#line1 :hover { opacity:0.9;}
+#line2{position: absolute;
+    left: 180px;
+    top: 70px;}
+#line2 :hover { opacity:0.9;}
+}
+
+@media screen and (max-width:351px)
+{
+.logoDivMenu  :nth-child(1) { font-size: 10px; letter-spacing: 0px;}
+.logoDivMenu  :nth-child(2) { font-size: 10px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(3) { font-size: 10px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(4) { font-size: 10px; letter-spacing: 0px; }
+.logoDivMenu  :nth-child(n) { font-size: 10px; letter-spacing: 0px; }
+.logoDivMenu  :hover { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; }
+
+ #logo 
+{
+    display:show;
+width: 30px;
+border-radius: 500px;
+}
+
+.logoDivMenu 
+{
+   text-transform: uppercase; font:  Helvetica, Arial, Sans-Serif;
+  -webkit-transition: all 0.12s ease-out;
+   -moz-transition: all 0.12s ease-out;
+   -o-transition: all 0.12s ease-out;
+    display: inline-block;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    text-shadow:1.5px 1.5px black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 5%;
+}
+
+.logoDivMenu a
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 10px;
+    color: menu;
+    display: inline-block;
+    transition: 0.5s;
+    padding-right: 1%;
+    padding-left: 4%;
+   }
+.logoDivMenu .closebtn 
+{
+    position: fixed;
+    top: 0;
+    right: 55px;
+    font-size: 50px;
+    margin-left: 10px;
+}
+    
+.mute
+{
+    font:  Helvetica, Arial, Sans-Serif; 
+    display:block;
+    position:absolute;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 10px;
+   text-shadow: 1.5px 1.5px black;
+}
+    
+.mute:active{color:#829292;}
+.mute:hover 
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:block;
+    cursor:pointer;
+}
+    
+#homePage {
+    padding-left:1%;
+    font:  Helvetica, Arial, Sans-Serif; 
+    position:fixed;
+    bottom:0;
+    color: whitesmoke;
+    background:none;
+    font-size: 7px;
+    text-shadow: 1.5px 1.5px black;
+}
+   
+homePage :hover
+    {
+    -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); text-shadow: 3px 3px 3px #333; 
+    font:  Helvetica, Arial, Sans-Serif;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+    display:inline-block;
+}
+    
+p {-moz-transform: scale(1, -1);
+-webkit-transform: scale(1, -1);
+-o-transform: scale(1, -1);
+-ms-transform: scale(1, -1);
+transform: scale(1, -1);
+color:whitesmoke;
+font:  Helvetica, Arial, Sans-Serif; 
+font-size: 7px; 
+font-weight: bold;
+}
+
+.trapezium  {
+    border-bottom: 12px solid #333;
+    border-left: 1px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 40px;
+    transform: rotate(180deg) scaleX(-1);
+    opacity:0.7;
+    box-shadow: -6px 8px 10px #000;
+}
+
+#line1
+{padding-left:2%;position: absolute;
+    top: 65px;}
+#line1 :hover { opacity:0.9;}
+#line2{position: absolute;
+    left: 130px;
+    top: 65px;}
+#line2 :hover { opacity:0.9;}
+}
+
+/*@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */  */
+/*@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ } */
+/*@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ } */
+/*@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ } */
+/*@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ } */
+/*@media (min-width:1281px) { /* hi-res laptops and desktops */ }  */
+
+
+

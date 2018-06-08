@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <title>BMW Sell</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="AllSeries.css" media="screen" rel="stylesheet" type="text/css" />
+    
+</head>
+
+    <body class="background">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img alt="logo" src="images/logo.jpg" id="logo"></span>
+         
+        <div id="logoDivShow" class="logoDivMenu">
+                
+                <a href="As1 About Page.html">About</a>
+               <a href="As1 Select.html">Select</a>
+                <a href="As1 Specials.html">Specials</a>
+                <a href="As1 Contact.html">Contact</a>
+         </div>
+        
+        <h1 class="mute" onclick="document.getElementById('themesong').muted = !document.getElementById('themesong').muted">
+                           <a style="text-decoration:none;">Mute Song</a>
+                    </h1>
+        
+    <audio id="themesong" style="display:none;" controls autoplay loop>
+    <source src="Exclusive Trailer Song Long Version.ogg" type="audio/ogg">
+    <source src="Exclusive Trailer Song Long Version.mp3" type="audio/mpeg">
+    </audio>
+        
+         <img alt="serie7" id="serie7" src="" />
+         <img alt="serie7ghost" id="serie7ghost" src="images/7 series/bmw7ghost.PNG " />
+         
+            <p id="pcolor" >Pick color </p>
+            <div id="sliderdiv">
+                <input id="slider" type ="range" min ="0" max="360" step ="1" value ="0" class="bar" onchange="rangevalue.value=value"/>
+                <span class="highlight"></span>
+            </div>
+            
+           
+            <p id="pwheels">Select Alloys</p>
+            <button id="left-button" onclick="onCarChange(-1)">&lt;</button>
+            <button id="right-button" onclick="onCarChange(1)">&gt;</button>
+        
+        <div id="bmw">
+            <div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Choose engine</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a id="petrol">5.0i Petrol Engine</a>
+    <a id="diesel">5.0D Diesel Engine</a>
+  </div>
+</div>
+
+             <h1 >BMW</h1> <h2 >Building details</h2>
+            
+             <table id="table7" border="5"  cellpadding="5" cellspacing="4"> 
+                <tr>    <th id="name"> BMW 7 series 5.0i</th>  
+                <td  > 5000cm&sup3; </td>      
+                </tr> 
+                <tr>    <th>Fuel</th><td style="font-weight:bold; font-size:25px;"id="fueltype">Petrol</td>   
+                </tr> 
+                <tr>    <th>Power</th><td style="font-weight:bold; font-size:25px;"id="bhp">570 bhp</td>    
+                </tr> 
+                <tr>    <th>Price from</th><td id="price" style="font-size:30px; font-weight:bold;">£ 23 000</td>
+			 </table> 
+                
+       </div>
+            
+        <h1 id="homePage" > <a style="text-decoration:none;color:whitesmoke" href="index.html">Back to Home Page</a></h1>
+        <a href="javascript:void(0)"  onclick="closeNav()" ></a>
+        <script type="text/javascript" src="AllSeries7.js"></script>
+    </body>
+</html>
+
+
