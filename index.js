@@ -21,7 +21,7 @@ function openNav()
 
 var imgLen = document.getElementById('imgGallery');
 var images = imgLen.getElementsByTagName('img');
-var counter = Math.floor(Math.random(images.length) );
+var counter = Math.floor(Math.random()*images.length);
 
 (function(){
     changeSlide();
@@ -31,12 +31,12 @@ function changeSlide()
 {
         //console.log("counter: " + counter);
         images[0].src = images[counter].src;
-        console.log(images[counter].src);
-        counter++;
+        //console.log(images[counter].src);
+        counter = Math.floor(Math.random()*images.length);
 
-        if(counter === images.length){
-            counter = 0;
-        }
+        //if(counter === images.length){
+        //    counter = 0;
+        //}
 
          setTimeout(changeSlide, 3000);
 }
