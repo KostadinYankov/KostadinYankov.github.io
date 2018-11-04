@@ -21,7 +21,7 @@ function openNav()
 
 var imgLen = document.getElementById('imgGallery');
 var images = imgLen.getElementsByTagName('img');
-var counter = Math.floor(Math.random() * images.length);
+var counter = Math.floor(Math.random(images.length) );
 
 (function(){
     changeSlide();
