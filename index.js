@@ -32,7 +32,7 @@ function changeSlide()
         //console.log("counter: " + counter);
         images[0].src = images[counter].src;
         //console.log(images[counter].src);
-        counter = Math.floor(Math.random()*images.length);
+        counter = Math.floor(Math.random()*(images.length-1))-1;
 
         //if(counter === images.length){
         //    counter = 0;
